@@ -11,6 +11,7 @@ class Bill:
     issue_date: Optional[datetime] = None
     period_start: Optional[datetime] = None
     period_end: Optional[datetime] = None
+    period_days: int = 0
     consumption: float = 0.0
     compet_charge: float = 0.0
     regul_charge: float = 0.0
