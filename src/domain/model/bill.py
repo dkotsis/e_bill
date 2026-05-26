@@ -17,6 +17,7 @@ class Bill:
     bill_type: str = ""
     bill_hash: str = ""
 
+    # For anomaly detection
     expected_charge: float = 0.0
     is_audit_failure: bool = False
     is_historical_anomaly: bool = False
